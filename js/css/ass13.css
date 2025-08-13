@@ -1,0 +1,90 @@
+.b a:hover{
+  background-color: darkgrey;
+}
+.b a{
+  font-size: 20px;
+}
+.a7{
+  background-image: url(/images/house5.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a8{
+  background-image: url(/images/house2.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a9{
+  background-image: url(/images/house3.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a10{
+  background-image: url(/images/house4.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a12{
+  background-image: url(/images/house2.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a13{
+  background-image: url(/images/house5.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a14{
+  background-image: url(/images/house4.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a15{
+  background-image: url(/images/house3.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a17 button:hover{
+  background-color: darkgrey;
+ }
+ .hm input{
+  display: block;
+  margin: 10px 0;
+ }
+@media screen and (max-width: 900px) {
+  body{
+    width: 100%;
+    padding: 0 10px;
+  }
+  .a{
+    display: none;
+  }
+  .a6{
+    width: 100%;
+    display: block;
+  }
+  .a6 div{
+    margin: 10px 0;
+    width: 100%;
+  }
+  .a11{
+    width: 100%;
+  }
+  .a11 div{
+    margin: 10px 0;
+    width: 100%;
+  }
+ .a17 img{
+  width: 100%;
+ }
+ .a17 div{
+  width: 100%;
+  margin: 10px 0;
+ }
+ .a17 button{
+  width: 100%;
+ }
+ .hm input{
+  width: 100%;
+ }
+}

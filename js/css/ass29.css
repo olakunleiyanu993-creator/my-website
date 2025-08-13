@@ -1,0 +1,75 @@
+.a a{
+  /* margin: 0 !important; */
+  display: block;
+  padding: 20px 100px 20px 0px;
+  width: 380px;
+}
+.a a:hover{
+  background-color: darkgrey;
+}
+.b{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 100px;
+  padding: 0 80px;
+  gap: 15px;
+}
+.b img{
+  width: 310px;
+}
+.b5{
+   display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 100px;
+  padding: 0 80px;
+  gap: 15px;
+}
+.b5 img{
+   width: 310px;
+}
+.b10 a:hover{
+  background-color: black;
+  color: white !important;
+}
+.b10 a:first-child{
+  color: white !important;
+}
+.b10 a:first-child:hover{
+  background-color: darkgray !important;
+  color: white;
+}
+.bb div:hover{
+  background-color: gray !important;
+}
+.d{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.e p{
+  margin: 0 5px;
+}
+@media screen and (max-width:900px) {
+  body{
+    width: 100%;
+  }
+ .b{
+  display: block;
+  padding: 0 40px;
+ }
+ .b5 p{
+  width: 100% !important;
+ }
+ .b5{
+  display: block;
+  padding: 0 40px;
+ }
+ .c1 img{
+  width: 100%;
+ }
+ .d {
+  display: block;
+ }
+ .d2 div{
+  width: 100% !important;
+ }
+}

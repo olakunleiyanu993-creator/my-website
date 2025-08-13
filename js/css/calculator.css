@@ -1,0 +1,29 @@
+.a{
+  width: 400px;
+  height: 600px;
+  margin:  30px auto ;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+.answer{
+  width: 400px;
+  height: 120px;
+  color: white;
+  font-size: 40px;
+}
+button{
+  padding: 24px 0px;
+  border: none;
+  background-color: black;
+  color: orange;
+  font-size: 27px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+.b{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+button:hover{
+  background-color: rgba(245, 245, 245, 0.055);
+}

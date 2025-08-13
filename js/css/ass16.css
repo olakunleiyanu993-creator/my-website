@@ -1,0 +1,41 @@
+.b a:hover{
+  background-color: white;
+  color: black !important;
+}
+.c button:hover{
+  background-color: darkgrey !important;
+}
+.c3 p:nth-child(2){
+  font-size: 25px;
+  width: 100%;
+}
+.c3 p:last-child{
+  opacity: 0.6;
+  font-size: 20px;
+}
+.c7 p:nth-child(2){
+  font-size: 23px;
+  width: 100%;
+}
+.c7 p:last-child{
+  opacity: 0.6;
+  font-size: 20px;
+}
+@media screen and (max-width:900px) {
+  .b a{
+    display: block;
+    text-align: left;
+  }
+  body{
+    padding: 0 10px;
+    width: 100%;
+  }
+  .c1 p:first-child{
+    width: 40%;
+    font-size: 80px;
+    margin: auto;
+  }
+  .c3 {
+    width: 100%;
+  }
+}

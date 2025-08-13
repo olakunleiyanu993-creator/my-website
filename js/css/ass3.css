@@ -1,0 +1,320 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+nav{
+  background-color: white;
+}
+.a a{
+  text-decoration: none;
+  color: black;
+  letter-spacing: 5px;
+}
+.a > a{
+  display: flex;
+}
+.a1{
+  margin-left: 800px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.a1 a{
+  margin: 0 10px;
+  transition: transform , 3s;
+}
+.a{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.a a:nth-child(2){
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.a > a:hover{
+  background-color: darkgrey;
+}
+.a1 a:hover{
+  background-color: darkgrey;
+  transform: scale(2);
+  padding: 10px 5px;
+}
+.a2{
+  width: 100%;
+  height: 600px;
+}
+.a3{
+  display: flex;
+}
+.a3 p:nth-child(2){
+  position: relative;
+  right: 450px;
+}
+.a3 p{
+  display: inline-block;
+  font-size: 80px;
+  margin-top: -250px;
+  position: relative;
+  bottom: 350px;
+  margin-left: 500px;
+  color: white;
+}
+.a3 b{
+  background-color: black;
+  color: white;
+}
+
+.a4{
+  margin-top: 250px;
+}
+.a5{
+  margin-top: 40px;
+}
+.a7{
+  background-image: url(/images/house5.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a7 p{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 180px;
+  height: 50px;
+}
+.a8{
+  background-image: url(/images/house2.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a8 p{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 180px;
+  height: 50px;
+}
+.a9{
+  background-image: url(/images/house3.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a9 p{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 180px;
+  height: 50px;
+}
+.a10{
+  background-image: url(/images/house4.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a10 p{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 180px;
+  height: 50px;
+}
+.a6{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+.a12{
+  background-image: url(/images/house2.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a12 p{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 180px;
+  height: 50px;
+}
+.a13{
+  background-image: url(/images/house5.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a13 p{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 180px;
+  height: 50px;
+}
+.a14{
+  background-image: url(/images/house4.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a14 p{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 180px;
+  height: 50px;
+}
+.a15{
+  background-image: url(/images/house3.jpg);
+  width: 300px;
+  height: 250px;
+}
+.a15 p{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 180px;
+  height: 50px;
+}
+.a11{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.a16{
+  margin-top: 90px;
+}
+.a16 p:nth-child(1){
+  font-size: 40px;
+  margin-left: 35px;
+}
+.a16 p:nth-child(2){
+  width: 95%;
+  font-size: 20px;
+  text-align: justify;
+  margin: auto;
+}
+.a17{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.a18 p:nth-child(2){
+  font-size: 30px;
+}
+.a19 p:nth-child(2){
+  font-size: 30px;
+}
+.a20 p:nth-child(2){
+  font-size: 30px;
+}
+.a21 p:nth-child(2){
+  font-size: 30px;
+}
+.a18 p:nth-child(3){
+  color: darkgray;
+}
+.a19 p:nth-child(3){
+  color: darkgray;
+}
+.a20 p:nth-child(3){
+  color: darkgray;
+}
+.a21 p:nth-child(3){
+  color: darkgray;
+}
+.a17 button{
+  padding: 6px 115px;
+  border: none;
+  font-size: 20px;
+}
+.a17 button:hover{
+  background-color: darkgrey;
+}
+.a22{
+  margin: 50px 80px;
+}
+.a22 input{
+  display: block;
+  margin: 10px 0;
+}
+.a23 p:first-child{
+  font-size: 30px;
+}
+input{
+  padding-right: 1000px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+form button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+form button:hover{
+  background-color: darkgrey;
+  color: black;
+}
+.a23 p:nth-child(2){
+  font-size: 20px;
+}
+.a24 img{
+  width: 90%;
+  margin: 20px 80px;
+}
+footer{
+  background-color: black;
+  height: 100px;
+}
+footer p{
+  text-align: center;
+  color: white;
+}
+footer a:hover{
+  color: green;
+}
+footer a{
+  color: white;
+}
+@media screen and (max-width:460px){
+ .a2 img{
+  width: 100%;
+  height: 300px;
+ } 
+ .a6{
+  display: grid;
+  gap: 20px;
+ }
+ .a11{
+  display: grid;
+  gap: 20px;
+  width: 100%;
+ }
+ .a4{
+  margin-top: -250px;
+ }
+ .a17{
+  display: grid;
+  gap: 20px;
+ }
+ .a22{
+  width: 80%;
+  position: relative;
+  right: 30px;
+}
+form input{
+  padding-right: 100px;
+}
+.a24 img{
+  position: relative;
+  right: 60px;
+  width: 90%;
+}
+.a16 p:nth-child(2){
+  width: 80%;
+}
+nav{
+  width: 100%;
+  height: 50px;
+}
+body{
+  width: 100%;
+}
+}

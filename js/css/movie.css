@@ -1,0 +1,209 @@
+.c{
+  margin-top: 20px;
+  margin-left: 220px;
+  background-color: darkgrey;
+  font-size: 20px;
+}
+.b{
+  width: 250px;
+  background-color: black;
+  margin: 0;
+  padding: 0px;
+  height: 100vh;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+.f{
+  background-color: white;
+}
+.b1{
+  background-color: rgba(245, 245, 245, 0.293);
+}
+.hh1{
+  padding: 5px 100px 5px 10px;
+  background-color: rgba(169, 169, 169, 0.367);
+  border: none;
+  border-radius: 20px;
+  margin-right: 200px;
+}
+.nn{
+  animation-name: movie;
+  animation-duration: 0.4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  position: relative;
+  right: 13px;
+}
+@keyframes movie{
+  0%{transform: translateX(0px),translateY(0px); color: orange;}
+  50%{transform: translateX(0px),translateY(0px);  color: green;}
+  100%{transform: translateX(0px),translateY(0px); transform: scale(1.07); color: blue;}
+}
+.d a{
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.d a:hover{
+  background-color: rgba(245, 245, 245, 0.362);
+  transition-duration: 4s;
+}
+.img{
+  width: 190px;
+  height: 270px;
+}
+.j1 div{
+  width: 190px;
+}
+.k1 div{
+  width: 190px;
+}
+.g a{
+  margin: 0 10px;
+  color: darkgray;
+  border-radius: 50%;
+}
+::placeholder{
+  color: white;
+  font-size: 17px;
+}
+.hh2{
+  border-radius: 20px;
+}
+.hh2:hover{
+  background-color: green !important;
+  transition-duration: 4s;
+}
+.hh3{
+  border-radius: 20px;
+}
+.hh3:hover{
+  background-color: gray !important;
+  transition-duration: 4s;
+}
+.hh6 img{
+  height: 500px !important;
+}
+.i1 div{
+  padding: 0 10px;
+}
+.i1 img:hover{
+  opacity: 0.6;
+}
+.i1 p{
+  text-align: center;
+}
+.j1 div{
+  transition-property: transform;
+  border-radius: 13px;
+  margin: 0 7px;
+}
+.j1 div:hover{
+  transform: scale(1.03);
+}
+.h{
+  margin-right: 200px;
+}
+nav{
+  background-color: rgba(0, 0, 0, 0.723);
+}
+.k1 div{
+  margin: 0 7px;
+  transition-property: transform;
+  border-radius: 13px;
+}
+.k1 div:hover{
+  transform: scale(1.03);
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev{
+  margin-left: -120px;
+  text-decoration: none;
+}
+.next{
+  margin-right: -120px;
+  text-decoration: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-image: linear-gradient(red,blue,green);
+  color: black;
+}
+@media screen and (max-width:900px) {
+  body{
+    width: 100%;
+  }
+  nav{
+    display: flex !important;
+    width: 100%;
+  }
+  .b{
+    height: 200vh;
+  }
+  form{
+    display: none;
+  }
+  .h{
+    display: none !important;
+  }
+  .j div{
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+  }
+  .img{
+    width: 310px !important;
+    height: 350px;
+    border-radius: 10px;
+  }
+  .j1 div{
+    width: 310px;
+    margin-left: 20px;
+  }
+  .netflix{
+    display: none;
+  }
+  .k1 div{
+    width: 310px;
+    margin-left: 20px;
+  }
+}

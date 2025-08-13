@@ -1,0 +1,91 @@
+.a a:hover{
+  background-color: white;
+  color: black !important;
+}
+.b button:hover{
+  background-color: white;
+  color: black !important;
+}
+.ab{
+  text-align: justify;
+  width: 75%;
+}
+.av4 p:nth-child(2){
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 850px;
+}
+.av1{
+  width: 70%;
+}
+.p img:hover{
+  opacity: 0.6;
+}
+.p button:hover{
+  background-color: white;
+  color: black;
+}
+.four{
+  display: flex;
+  padding: 0 30px;
+  /* gap: 600px; */
+}
+.five p{
+  width: 100%;
+}
+.fo{
+  box-sizing: border-box;
+}
+@media screen and (max-width: 900px){
+  body{
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .a a:hover{
+    background-color: white;
+    color: black !important;
+    padding-left: 30px;
+  }
+  .ab{
+    width: 100% 
+  }
+  .e{
+    display: flex;
+    flex-direction: column;
+  }
+   /* .f img{
+    width: 100%;
+   } */
+   .f p{
+    margin-top: 5px;
+   }
+   .e .f{
+    margin: 10px 0;
+  }
+  .av1{
+    width: 90%;
+  }
+  .p{
+    display: flex;
+    flex-direction: column;
+  }
+  .p img{
+    width: 100%;
+  }
+  .p .one{
+    width: 100%;
+  }
+  .p .two{
+    width: 100%;
+  }
+  .p .three{
+    width: 100%;
+  }
+  .four{
+    display: grid;
+  }
+  .mn{
+    display: none;
+  }
+}

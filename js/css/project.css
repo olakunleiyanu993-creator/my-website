@@ -1,0 +1,7 @@
+.b{
+  width: 200px;
+  height: 100vh;
+}
+.b a{
+  display: block;
+}

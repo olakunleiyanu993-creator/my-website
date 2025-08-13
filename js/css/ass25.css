@@ -1,0 +1,92 @@
+.a a{
+  padding: 15px 140px;
+  font-size: 25px;
+}
+.a a:hover{
+  background-color: darkgrey;
+}
+.b1{
+  width: 160px;
+  height: 7px;
+  background-color: black;
+}
+.c p{
+  padding-left: 10px;
+}
+.g div{
+  margin: 0 10px;
+}
+.g button:hover{
+  background-color: darkgrey !important;
+}
+.p{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  text-align: center;
+}
+.p ul{
+  transition: box-shadow 0.3s ease-in-out;
+}
+.p ul:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+.h9 p:nth-child(2){
+  font-size: 30px;
+}
+.h9{
+ display: grid;
+ grid-template-columns: auto auto auto;
+ gap: 15px;
+ justify-content: space-around;
+ margin-top: 20px;
+}
+form input{
+  margin: 10px;
+  width: 100%;
+  height: 45px;
+}
+@media screen and (max-width:900px) {
+  body{
+    width: 100%;
+    padding:0;
+  }
+  nav{
+   width: 100%; 
+  }
+  .p{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .ogo{
+    width: 100% !important;
+  }
+  .bg{
+    width: 100%;
+  }
+  .c1 p{
+    width: 100%;
+  }
+  .h9 p{
+    padding-left: 10px;
+  }
+  form input{
+    width: 100%;
+  }
+  form button{
+    padding: 0;
+    width: 100%;
+  }
+  footer button{
+    width: 100%;
+    position: relative;
+    right: 100px;
+  }
+  .a a{
+  padding: 10px 15px 10px 10px; 
+}
+.h9{
+  display: block;
+}
+}

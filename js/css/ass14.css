@@ -1,0 +1,81 @@
+.b a:hover{
+  color: black !important;
+  background-color: white;
+}
+.b button:hover{
+  color: black !important;
+  background-color: white;
+}
+.c i:hover{
+ color: black !important;
+}
+.c1 a:hover{
+  background-color: aqua !important;
+}
+.c3 img{
+  border-radius: 50%;
+}
+.c3 img:hover{
+  opacity: 0.6;
+}
+.c3 p:nth-child(2){
+  font-size: 25px;
+}
+.c8 ~ a{
+  background-color: darkcyan;
+ padding: 10px 10px;
+ float: right;
+ margin-top: -20px;
+}
+.g button:hover{
+  background-color: rgba(169, 169, 169, 0.94) !important;
+  color: black !important;
+}
+.g div{
+  transition: box-shadow;
+}
+.g div:hover{
+  box-shadow: 0 8px 16px rgba(0,0,0.2);
+  cursor: pointer;
+}
+@media screen and (max-width: 900px){
+  .b a{
+    display: block;
+    text-align: left;
+  }
+  body{
+    width: 100%;
+    padding: 0 10px;
+  }
+  .c3{
+    display: grid;
+    margin-left: 120px;
+  }
+  .c111 div{
+    width: 100%;
+  }
+  .c9 p{
+    width: 100%;
+    text-align: justify;
+  }
+  .c111 div{
+   width: 100%;
+  }
+  .c111 img{
+    width: 100%;
+  }
+  .d8{
+    width: 100%;
+  }
+  .g div{
+    margin: 10px 0;
+  }
+  .d8 form{
+    width: 100%;
+    position: relative;
+    right: 300px;
+  }
+  .d8 form input{
+    width: 100%;
+  }
+}

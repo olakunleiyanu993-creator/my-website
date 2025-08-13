@@ -1,0 +1,82 @@
+.b a{
+  color: white;
+  margin-left: 10px;
+}
+.b a:hover{
+  background-color: gray;
+}
+.c a{
+  display: none;
+}
+body{
+  background-color: whitesmoke;
+}
+.d1{
+  background-color: white;
+}
+.d3 a{
+  display: block;
+  padding: 5px 10px;
+}
+.d3 a:hover{
+  background-color: gray !important;
+}
+.d6 p{
+  margin-left: 5px;
+}
+.f input{
+  width: 100%;
+  height: 40px;
+}
+input::placeholder{
+  font-size: 21px;
+}
+@media screen and (max-width:900px) {
+  .b a{
+    display: none;
+  }
+  .c a{
+   display: block;
+   padding: 5px 10px;
+  }
+  .c a:hover{
+    background-color: white;
+    color: black !important;
+  }
+  body{
+    width: 100%;
+    padding: 0 5px;
+  }
+  .f1{
+    width: 100%;
+  }
+  .f2{
+    width: 100%;
+  }
+  .f4 img{
+    width: 100% !important;
+    margin: 10px 0;
+  }
+  .g1 img{
+    width: 100% !important;
+  }
+  .h img{
+    width: 100%;
+  }
+  .h{
+    height: 500px !important;
+  }
+  .hh a{
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+  }
+  .f2 p:nth-child(3){
+    position: relative;
+    right: 350px;
+  }
+  .e1 p:nth-child(3){
+    position: relative;
+    right: 350px;
+  }
+}

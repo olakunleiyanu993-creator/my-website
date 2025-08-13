@@ -1,0 +1,19 @@
+
+
+@media  screen and (max-width:900px) {
+  body{
+    width: 100%;
+  }
+  .a{
+    height: 200px !important;
+  }
+  .a1{
+    display: none;
+  }
+  .aa img{
+    width: 100%;
+  }
+  .aa{
+    padding: 0 30px;
+  }
+}

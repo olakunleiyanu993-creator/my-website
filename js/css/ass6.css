@@ -1,0 +1,178 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.a1 button{
+  margin-left: 220px;
+}
+.a1 a{
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 11px 15px;
+  background-color: white;
+}
+.a1 a:hover{
+ background-color: darkgrey;
+}
+.b a{
+  font-size: 25px;
+  margin: 0 px;
+  padding: 11px 20px;
+  text-decoration: none;
+  color: white;
+}
+.b a:hover{
+  background-color: white;
+  color: black !important;
+}
+.c{
+  background-color: rgb(239, 35, 35);
+  height: 600px;
+}
+.c1{
+  padding-top: 200px;
+  text-align: center;
+}
+.c1 p:first-child{
+  font-size: 70px;
+  color: white;
+}
+.c1 p:nth-child(2){
+  color: white;
+}
+.c1 button{
+  padding: 8px 15px;
+  color: white;
+  border: none;
+  background-color: black;
+}
+.c1 button:hover{
+  background-color: darkgrey;
+}
+.c2{
+  display: flex;
+  margin: 80px 130px;
+}
+.c3 p:nth-child(1){
+  font-size: 40px;
+}
+.c3 p:nth-child(2){
+  width: 100%;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.c3 p:nth-child(3){
+  width: 100%;
+  opacity: 0.6;
+  font-size: 20px;
+  margin-top: 80px;
+}
+.c2 img{
+  width: 300px;
+  margin-right: 60px;
+}
+.c5{
+  background-color: rgba(169, 169, 169, 0.2);
+  display: flex;
+}
+.c6 img{
+  margin-top: 120px;
+
+}
+.c7 p:first-child{
+  font-size: 40px;
+}
+.c7 p:nth-child(2){
+  width: 90%;
+  font-size: 20px;
+  color: black;
+  margin-top: 30px;
+}
+.c7 p:nth-child(3){
+  width: 90%;
+  opacity: 0.6;
+  font-size: 15px;
+  margin-top: 70px;
+}
+.c7{
+  margin: 100px 70px;
+}
+.c8{
+  background-color: rgb(110, 103, 103);
+  text-align: center;
+}
+.c8 p{
+  color: white;
+  font-size: 25px;
+  padding: 90px 0;
+}
+.c9{
+  text-align: center;
+  margin-top: 80px;
+}
+.c9 a{
+  color:  rgb(110, 103, 103);
+}
+.c9 i{
+  font-size: 30px;
+}
+.c9:last-child{
+  margin-top: 50px;
+}
+.c9 a:hover{
+  color: darkgrey;
+}
+@media screen and (max-width: 470px){
+  .a1 a{
+    padding: 15px 10px;
+  }
+  .b a:hover{
+    padding-right: 350px;
+  }
+  .c1 p:first-child{
+    width: 20px;
+    margin: 0 110px;
+  }
+  .c1 p:nth-child(2){
+    font-size: 19px;
+  }
+  .c2{
+    display: block;
+    width: 90%;
+    position: relative;
+    right: 110px;
+  }
+  .c3 p:first-child{
+    width: 100%;
+  }
+  .c3 p:nth-child(2){
+  text-align: justify;
+}
+.c3 p:nth-child(3){
+  text-align: justify;
+}
+.c2 img{
+  margin-top: 30px;
+}
+.c5{
+  display: grid;
+}
+.c6{
+  width: 100%;
+  position: relative;
+  right: 70px;
+}
+body{
+  overflow-x: hidden;
+}
+.c7{
+  width: 85%;
+  position: relative;
+  right: 55px;
+  text-align: justify;
+}
+.c7 p:nth-child(3){
+  width: 90%;
+}
+}

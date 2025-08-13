@@ -1,0 +1,271 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  background-color: white;
+  width: 100%;
+  height: 70px;
+}
+.content a{
+  text-decoration: none;
+  color: black;
+  padding: 20px 0;
+}
+.b{
+  margin-left: 800px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  display: flex;
+  gap: 70px;
+}
+.content a:hover{
+  background-color: darkgrey;
+  transition-duration: 4s;
+}
+.content .a{
+  font-size: 18px;
+}
+.c p{
+  font-size: 70px;
+  margin-top: -100px;
+}
+.d img{
+  margin-left: 40px;
+}
+.d{
+  display: flex;
+}
+.e p:first-child{
+  margin-left: 200px;
+}
+.e p:nth-child(2){
+  margin-left: 220px;
+  font-size: 19px;
+  letter-spacing: 5px;
+}
+.e p:nth-child(3){
+  margin-left: 80px;
+  
+}
+.e p:nth-child(4){
+  margin-left: 80px;
+  color: darkgrey;
+  margin-top: 150px;
+}
+.g2{
+  display: flex;
+}
+.bb{
+  margin-left: 220px;
+  font-size: 50px;
+  margin-top: 190px;
+}
+.g1{
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.l{
+  margin-left: 140px;
+  margin-top: -50px;
+}
+.g p:nth-child(1){
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 5px;
+}
+.g p:nth-child(2){
+  color: darkgrey;
+}
+.g{
+  margin-top: 80px;
+}
+.h p:nth-child(1){
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 5px;
+}
+.h p:nth-child(2){
+  color: darkgrey;
+}
+.i p:nth-child(1){
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 5px;
+}
+.i p:nth-child(2){
+  color: darkgrey;
+}
+.j p:nth-child(1){
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 5px;
+}
+.j p:nth-child(2){
+  color: darkgrey;
+}
+.k p:nth-child(1){
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 5px;
+}
+.k p:nth-child(2){
+  color: darkgrey;
+}
+form{
+  display: block;
+}
+form input{
+  border: none;
+  display: block;
+}
+form input:nth-child(1){
+ margin-left: 70px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-right: 1100px;
+}
+form input:nth-child(2){
+ margin-left: 70px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-right: 1100px;
+}
+form input:nth-child(3){
+ margin-left: 70px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-right: 1100px;
+}
+form input:nth-child(4){
+ margin-left: 70px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-right: 1100px;
+}
+form button{
+  background-color: darkgrey;
+  border: none;
+  padding: 10px 20px;
+}
+form button:hover{
+  background-color: rgba(169, 169, 169, 0.504);
+}
+.m p:nth-child(3){
+  color: rgba(169, 169, 169, 0.904);
+  font-size: 20px;
+}
+.m{
+  margin: 0 40px;
+}
+.n{
+  margin-top: 80px;
+  background-color: beige;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.n p{
+  font-size: 20px;
+}
+.n a{
+  color: black;
+}
+.n a:hover{
+  color: green;
+}
+@media screen and (max-width: 460px){
+  body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .c img{
+    width: 100%;
+    height: 300px;
+  }
+  .d{
+    display: flex;
+    margin-top: 80px;
+  }
+  .d img{
+    display: none;
+  }
+  .e p:nth-child(1){
+    width: 100%;
+    position: relative;
+    right: 120px;
+  }
+  .e p:nth-child(2){
+    width: 100%;
+    position: relative;
+    right: 130px;
+  }
+  .e p:nth-child(3){
+    width: 100%;
+    position: relative;
+    right: 75px;
+  }
+  .e p:nth-child(4){
+    width: 100%;
+    position: relative;
+    right: 75px;
+  }
+  .f{
+    width: 100%;
+    position: relative;
+    right: 90px;
+  }
+  .b{
+    display: none;
+  }
+  .bb{
+    width: 100%;
+    position: relative;
+    right: 60px;
+  }
+  .g2{
+    display: block;
+  }
+  .g1{
+    width: 100%;
+    position: relative;
+    right: 95px;
+  }
+  .l img{
+    position: relative;
+    right: 120px;
+    width: 350px;
+    margin-top: 80px;
+    height: 500px;
+  }
+  .g p:nth-child(1){
+    font-size: 19px;
+  }
+  .h p:nth-child(1){
+    font-size: 19px;
+  }
+  .i p:nth-child(1){
+    font-size: 19px;
+  }
+  .j p:nth-child(1){
+    font-size: 19px;
+  }
+  .k p:nth-child(1){
+    font-size: 19px;
+  }
+  .m{
+    margin-left: 0;
+    margin-top: 60px;
+  }
+  form{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px){
+  .content a:first-child{
+    width: 100%;
+  }
+  .d{
+    width: 100%;
+  }
+}

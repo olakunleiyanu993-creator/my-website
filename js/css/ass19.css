@@ -1,0 +1,47 @@
+.a a{
+  padding: 15px 130px;
+  text-decoration: none;
+  color: black;
+}
+.a a:hover{
+  background-color: darkgrey;
+}
+.a a:last-child:hover{
+  background-color: black !important;
+  color: white;
+}
+.b4 button:hover{
+  background-color: darkgray !important;
+  border-radius: 5px;
+}
+.b12 button:hover{
+  background-color: rgba(169, 169, 169, 0.605) !important;
+}
+@media screen and (max-width:900px) {
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  nav{
+    display: none;
+  }
+  .b img{
+    width: 100%;
+  }
+  .b4{
+    position: relative;
+    right: 150px;
+    width: 100%;
+  }
+  .b4 button{
+    position: relative;
+    right: 390px;
+    width: 70%;
+    text-align: center;
+  }
+  .b8 img{
+    width: 100%;
+    position: relative;
+    right: 250px;
+  }
+}

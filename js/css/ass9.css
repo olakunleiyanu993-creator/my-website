@@ -1,0 +1,230 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.a{
+  margin: 0 40px;
+}
+.a a{
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 120px;
+}
+.a a:hover{
+  background-color: darkgray;
+}
+nav{
+  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.548);
+}
+.a a:last-child:hover{
+  background-color: black;
+  color: white;
+}
+.b{
+  background-image: url(/images/criminal-justice-220914-0543-majors.jpg);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.b1{
+  text-align: center;
+  position: relative;
+  top: 250px;
+}
+.b1 p{
+  color: white;
+}
+.b1 p:first-child{
+  font-size: 55px;
+}
+.b1 p:nth-child(2){
+  font-size: 30px;
+}
+.b1 p:nth-child(3){
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.b2{
+  background-color: rgba(233, 150, 122, 0.496);
+}
+.b3{
+  text-align: center;
+  font-size: 60px;
+}
+.b4 img{
+  margin: 40px 140px;
+  opacity: 1;
+}
+.b4 p{
+  width: 1150px;
+  margin: auto;
+  font-size: 20px;
+}
+.b4 button{
+  margin: 50px 600px;
+  padding: 20px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b4 button:hover{
+  background-color: darkgrey;
+}
+.b5{
+  background-image: url(/images/download\ \(10\).jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+}
+.b6{
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+.b6 p{
+  color: white;
+}
+.b6 p:first-child{
+  font-size: 60px;
+}
+.b6 p:nth-child(2){
+  font-size: 40px;
+}
+.b7{
+  background-color: rgba(232, 181, 181, 0.712);
+}
+.b8 p{
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.b8 img{
+  margin: 120px 130px;
+  width: 80%;
+}
+.b9{
+   background-color: rgba(232, 181, 181, 0.712);
+   display: flex;
+   justify-content: space-around;
+   height: 300px;
+}
+.b10 p:first-child{
+  font-size: 40px;
+}
+.b10 p:nth-child(2){
+  font-size: 20px;
+}
+.b10 p:nth-child(3){
+  font-size: 20px;
+}
+.b11 p:first-child{
+  font-size: 40px;
+}
+.b11 p:nth-child(2){
+  font-size: 20px;
+}
+.b11 p:nth-child(3){
+  font-size: 20px;
+}
+.b12{
+  background-color: rgb(237, 159, 159);
+  height: 330px;
+}
+.b13 p:first-child{
+  font-size: 40px;
+}
+.b13{
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+.b13 p:nth-child(2){
+  font-size: 25px;
+}
+.b13 button{
+  border: none;
+  background-color: indianred;
+  padding: 20px 80px;
+  color: white;
+  font-size: 25px;
+}
+.b13 button:hover{
+  background-color: darkgrey;
+}
+footer{
+  background-color: black;
+  padding: 30px 0;
+  text-align: center;
+}
+footer p{
+  color: white;
+}
+footer a{
+  color: white;
+}
+footer a:hover{
+  color: green;
+}
+@media screen and (max-width: 470px) {
+  nav{
+   display: none;
+  }
+  .b{
+    width: 100%;
+}
+.b1 p{
+  width: 20%;
+  margin-left: 150px;
+  position: relative;
+  bottom: 200px;
+}
+.b4{
+  width: 90%;
+}
+.b4 img{
+  position: relative;
+  right: 110px;
+  width: 95%;
+ }
+ .b4 p{
+  width: 100%;
+  position: relative;
+  left: 20px;
+  text-align: justify;
+ }
+ .b4 button{
+   width: 50%;
+   position: relative;
+   right: 490px;
+ }
+ .b5{
+  width: 100%;
+ }
+ .b8{
+  width: 100%;
+ }
+ .b8 img{
+  position: relative;
+  right: 110px;
+  width: 90%;
+ }
+ .b9{
+  display: grid;
+  margin: auto;
+  height: 500px;
+ }
+ .b12{
+  height: 400px;
+ }
+ body{
+  overflow-x: hidden;
+ }
+}

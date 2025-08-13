@@ -1,0 +1,46 @@
+.b a:hover{
+  background-color: darkgray;
+}
+.a a:hover{
+  background-color: darkgray;
+}
+.gg p:first-child{
+  font-size: 30px;
+  letter-spacing: 3px;
+  width: 100%;
+  margin: 30px 0;
+}
+.gg p:nth-child(2){
+  opacity: 0.6;
+  color: darkgrey;
+}
+.e p{
+  text-align: justify;
+}
+@media  screen and (max-width:900px) {
+  body{
+    width: 100%;
+    padding: 0 10px;
+    overflow-x: hidden;
+  }
+  .b a{
+    display: none;
+  }
+  .d{
+    display: block;
+  }
+  .d img{
+    display: none;
+  }
+  .e p{
+    width: 100% !important;
+  }
+  .hy{
+    display: block;
+  }
+  .l img{
+    width: 100%;
+    position: relative;
+    right: 200px;
+  }
+}

@@ -1,0 +1,21 @@
+.a12 i{
+  display: block;
+  margin: 10px 0;
+}
+@media screen and (max-width:900px) {
+  body{
+    padding: 0 10px;
+    width: 100%;
+  }
+  .a4{
+    width: 100%;
+    position: relative;
+    right: 550px;
+  }
+  .a6 img{
+    width: 100%;
+  }
+  .a7 img{
+    width: 100%;
+  }
+}

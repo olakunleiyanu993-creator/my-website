@@ -1,0 +1,129 @@
+li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 5px 80px 10px 0px;
+}
+li a:hover{
+  background-color: rgba(169, 169, 169, 0.726);
+  color: black;
+}
+.left{
+  display: none;
+}
+.right{
+  margin-left: 332px;
+  background-color: whitesmoke;
+  width: 76%;
+  padding: 0px 5px;
+}
+.b{
+  padding: 50px 0px;
+  width: 24%;
+}
+.c3 div{
+  background-color: white;
+  margin-left: 5px;
+  width: 350px;
+}
+.d div{
+  background-color: white;
+  margin-left: 5px;
+  width: 350px;
+}
+.c1 a{
+  margin-left: 10px;
+  background-color: white;
+}
+.c1 a:hover{
+  background-color: darkgrey !important;
+}
+.c3 img:hover{
+  opacity: 0.6;
+}
+.d img:hover{
+  opacity: 0.6;
+}
+.a1111{
+  height: 40px;
+}
+.a111{
+  background-color: grey;
+}
+.g div{
+  opacity: 0.6;
+}
+.g div:hover{
+  opacity: 1;
+}
+.m1 i{
+  margin: 25px 0;
+}
+form input{
+  margin: 10px 0;
+}
+.r p{
+  margin: 0 5px;
+}
+.s p{
+  margin: 0 5px;
+}
+.q p{
+  margin: 0 5px;
+}
+.cs img{
+  display: none;
+}
+@media screen and (max-width:900px) {
+  .left{
+    display: block;
+  }
+  .b{
+    display: none;
+  }
+  li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px 0;
+}
+.right{
+  margin: 0 !important;
+  padding-top: 20px;
+  width: 100% !important;
+}
+.c1 a:nth-child(4){
+  display: none;
+}
+.nn{
+  position: relative;
+  left: 0 !important;
+}
+.nn img{
+  position: relative;
+  right: 50px;
+ 
+}
+.cs img{
+  margin-left: 140px;
+   display: flex;
+}
+.cs img:hover{
+  opacity: 0.6;
+}
+.c1 a:nth-child(5){
+  display: none;
+}
+.g div{
+  width: 90% !important;
+}
+.f img{
+  width: 100%;
+}
+.d div{
+  width: 100%;
+}
+form input{
+  width: 100%;
+}
+}

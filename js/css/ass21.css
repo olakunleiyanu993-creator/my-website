@@ -1,0 +1,86 @@
+.a:hover{
+  background-color: darkgray;
+}
+.b a:hover{
+  background-color: darkgray;
+}
+/* .b{
+  margin-left: 750px;
+} */
+ .c1 p{
+  padding: 20px 0;
+ }
+ .c1 a{
+  padding: 10px 0;
+ }
+ .c1{
+  padding-left: 50px;
+ }
+ .c1 a:hover{
+  background-color: darkgrey !important;
+ }
+ .c2 i:hover{
+  opacity: 0.6;
+ }
+ .cc5 i{
+  margin: 0 140px;
+ }
+ .e2 button:hover{
+  background-color: rgba(169, 169, 169, 0.575);
+ }
+ .f2 img:hover{
+  opacity: 0.6;
+ }
+ .f3 img:hover{
+  opacity: 0.6;
+ }
+ .progress{
+  width: 10%;
+  height: 30px;
+ }
+ .g1{
+  margin-right: -250px;
+ }
+@media screen and (max-width:900px) {
+  .b a{
+    display: block;
+    width: 100%;
+  }  
+  .b{
+    width: 100%;
+  }
+  .g2{
+    width: 100% !important;
+  }
+  .c2{
+    margin-top: -210px;
+  }
+  form input{
+    width: 100%;
+  }
+  .f1{
+    margin-left: 35px !important;
+  }
+  .e3 div{
+   text-align: center;
+  }
+  .e2 div{
+    margin:  0 30px;
+    width: 100%;
+  }
+  .d1 img{
+    width: 100%;
+  }
+  .cc5 i{
+    margin: 0 180px;
+  }
+  .p1{
+    position: relative;
+    right: 500px;
+    width: 100% !important;
+  }
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+}

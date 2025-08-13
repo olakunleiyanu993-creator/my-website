@@ -1,0 +1,94 @@
+.b div{
+  padding: 17px 10px;
+}
+.b i{
+  font-size: 33px;
+  margin: 0 40px;
+}
+.b p{
+  font-size: 25px;
+  margin: 0 10px;
+}
+.b .b2:hover{
+  background-color: black;
+}
+.b .b3:hover{
+  background-color: black;
+}
+.b .b4:hover{
+  background-color: black;
+}
+.b .b1{
+  background-color: black;
+}
+.b .b1:hover{
+  background-color: darkgrey;
+}
+.right{
+  width: 85%;
+  margin-left: 150px;
+}
+.left{
+  width: 15%;
+}
+.d{
+  padding: 30px 100px;
+}
+.a111{
+  background-color: darkgrey;
+}
+.a1111{
+  height: 30px;
+}
+.g div{
+  opacity: 0.6;
+}
+.g div:hover{
+  opacity: 1;
+}
+.i{
+  padding: 0 100px;
+}
+.k a{
+  color: rgba(255, 255, 255, 0.444);
+}
+@media screen and (max-width: 400px) {
+  nav {
+    display: none;
+  }
+  body{
+    width: 100%;
+  }
+  .d{
+    padding: 0 0px;
+  }
+  .d1 p{
+    width: 100% !important;
+  }
+  .e div{
+    text-align: center;
+  }
+  .g div{
+    width: 99% !important;
+    margin: 10px 0;
+  }
+  .i1 img{
+    width: 100%;
+  }
+  .d2{
+    width: 100%;
+  }
+  .right{
+    margin: 0;
+    width: 100%;
+  }
+  .a img{
+    width: 100%;
+  }
+  input{
+    width: 100%;
+  }
+  .i{
+    padding: 0 0px;
+  }
+}

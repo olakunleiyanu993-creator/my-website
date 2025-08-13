@@ -1,0 +1,76 @@
+.container{
+  width: 100%;
+}
+.left{
+  width: 20%;
+  height: 100vh;
+  display: block !important;
+}
+.right{
+  width: 80%;
+  margin-left: 270px !important;
+  padding: 150px 20px 0px 120px;
+}
+.navbar{
+  display: none;
+}
+ li{
+  margin: 30px 0;
+ }
+ .a{
+  margin: 90px 0 !important;
+ }
+ li a{
+  padding-right: 120px ;
+ }
+li a:hover{
+  background-color: white;
+  color: black !important;
+}
+.left h1{
+  margin: 30px 0;
+}
+.b1{
+  background-color: rgba(255, 0, 0, 0.603);
+  height: 10px;
+  width: 100px;
+}
+form button:hover{
+  background-color: darkgray !important;
+}
+.b1{
+  border-radius: 5px;
+}
+@media screen and (max-width:900px) {
+  .left{
+    display: none !important;
+    width: 200px;
+  }
+  li a{
+    padding: 10px 20px;
+  }
+  .navbar{
+    display: block;
+  }
+  .e2 img{
+    width: 100%;
+  }
+  .g div{
+    width: 100% !important;
+  }
+  .right{
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 10px !important;
+  }
+  input{
+    width: 100%;
+  }
+  form button{
+    width: 100%;
+  }
+  .bb2 img{
+  display: block;
+  width: 100%;
+}
+}

@@ -1,0 +1,52 @@
+.a a{
+  text-decoration: none;
+  display: block;
+  margin: 30px;
+  font-size: 35px;
+  color: white;
+  opacity: 0.6;
+}
+.a a:hover{
+  opacity: 1;
+}
+.a{
+  margin-top: 80px;
+}
+.b{
+  background-color: black;
+}
+.c{
+  background-color: grey;
+  font-size: 30px;
+  margin-left: 1300px;
+}
+.e{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 100px 0;
+  gap: 10px;
+}
+.e img{
+  width: 450px;
+  margin: 10px 0;
+}
+@media screen and (max-width:900px) {
+  body{
+    width: 100%;
+    padding: 0 5px;
+  }
+  .c{
+    margin-left:310px;
+  }
+  .e{
+    display: block;
+  }
+  .e img{
+    width: 100%;
+  }
+  .d1 button{
+    margin: auto !important;
+    position: absolute;
+    left: 100px;
+  }
+}

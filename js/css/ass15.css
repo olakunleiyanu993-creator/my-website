@@ -1,0 +1,17 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(/images/images\ \(3\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.a a:last-child:hover{
+  color: green !important;
+}
+@media screen and (max-width:900px) {
+  .a p:nth-child(2){
+    width: 25%;
+    margin: 0 40px;
+    font-size: 80px;
+  }
+}

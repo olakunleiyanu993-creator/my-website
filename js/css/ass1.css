@@ -1,0 +1,246 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.a a{
+  text-decoration: none;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 10px 10px;
+}
+nav a:hover{
+  background-color: white;
+  color: black;
+}
+nav button{
+  margin-left: 220px;
+}
+form a{
+  margin-left: 850px;
+  padding: 10px 10px;
+}
+.d p{
+  color: white;
+  text-align: center;
+}
+.d p:nth-child(2){
+  font-size: 50px;
+  margin-top: -130px;
+}
+.d{
+  animation-name: nnn;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.d img{
+  width: 100%;
+}
+@keyframes nnn{
+  0%{}
+}
+.g{
+  height: 1000px;
+}
+.g p:nth-child(2){
+  color: darkgrey;
+}
+.h{
+  margin: auto;
+  width: 700px;
+}
+.j{
+  font-size: 25px;
+}
+.k{
+  font-size: 25px;
+}
+.n{
+  font-size: 25px;
+}
+.o{
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 500px;
+  text-align: center;
+}
+.l{
+  width: 50%;
+}
+.p{
+  display: flex;
+  justify-content: center;
+}
+.one{
+  padding-left: 20px;
+}
+.four{
+  display: flex;
+}
+.two{
+  padding-left: 20px;
+}
+.three{
+  padding-left: 20px;
+}
+.p button:hover{
+  background-color: white;
+  color: black;
+}
+.fo{
+  margin-left: 350px;
+  
+}
+.five{
+  margin-left: 130px;
+  font-size: 20px;
+}
+.em{
+  margin-left: 20px;
+}
+.en{
+  margin-top: 10px;
+}
+.wo{
+  width: 700px;
+}
+.se{
+  margin-left: 500px;
+  margin-top: 5px;
+  padding: 5px 40px;
+}
+.se:hover{
+  background-color: white;
+  color: black !important;
+}
+.con{
+  margin-top: 90px;
+}
+.ba img{
+  margin-top: 90px;
+}
+.bab a{
+  font-size: 30px;
+  color: darkgray;
+}
+.bab{
+  text-align: center;
+  margin-top: 60px;
+}
+@media screen  and (max-width :460px) {
+  body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .e{
+    display: flex;
+    flex-direction: column;
+  }
+  .p{
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+  }
+  form a{
+    margin-left: 350px;
+  }
+  .h{
+    width: 100%;
+    height: 300px;
+    padding: 0 250px;
+    position: relative;
+  }
+  .d img{
+    width: 100%;
+  }
+  nav a:hover{
+    padding-right: 280px;
+  }
+  .g{
+    height: 1700px;
+  }
+  .one{
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .q{
+    width: 385px;
+  }
+  .r{
+    width: 385px;
+  }
+  .two{
+    margin-bottom: 10px;
+  }
+  .s{
+    width: 385px;
+  }
+  .four{
+    height: 400px;
+    display: block;
+  }
+  .fo{
+    margin: auto;
+  }
+  .i{
+    position: relative;
+    left: -200px;
+  }
+  .mu{
+     position: relative;
+    left: -200px;
+  }
+  .mu p:nth-child(2){
+    padding: 1px 50px;
+  }
+  .i p:nth-child(2){
+    padding: 1px 50px !important;
+  }
+  .o{
+    margin-left: 100px !important;
+  }
+  .l{
+     position: relative;
+    left: -200px;
+  }
+  .em{
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    left: -20px;
+  }
+  .pa{
+    margin-bottom: 20px;
+    padding-right: 190px !important;
+  }
+  .en{
+    width: 100%;
+  }
+  .fo button{
+    margin: auto 268px;
+  }
+  .wo{
+    text-align: justify;
+    width: 100%;
+  }
+  .o{
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 992px){
+ .p{
+  display: flex;
+  gap: 5px;
+ }
+ body{
+  overflow-x: hidden;
+ }
+}
